@@ -28,16 +28,6 @@ public:
     QLabel *label_2;
     QLabel *label_3;
     QLineEdit *lineEdit;
-    QPushButton *Wbutton1;
-    QPushButton *Wbutton3;
-    QPushButton *Wbutton4;
-    QPushButton *Wbutton5;
-    QPushButton *Wbutton2;
-    QPushButton *Wbutton6;
-    QPushButton *Wbutton7;
-    QPushButton *Wbutton8;
-    QPushButton *Wbutton9;
-    QPushButton *Wbutton10;
 
     void setupUi(QWidget *chosemap)
     {
@@ -89,36 +79,6 @@ public:
         lineEdit->setGeometry(QRect(270, 10, 81, 41));
         lineEdit->setReadOnly(true);
         lineEdit->setClearButtonEnabled(false);
-        Wbutton1 = new QPushButton(chosemap);
-        Wbutton1->setObjectName("Wbutton1");
-        Wbutton1->setGeometry(QRect(80, 230, 71, 21));
-        Wbutton3 = new QPushButton(chosemap);
-        Wbutton3->setObjectName("Wbutton3");
-        Wbutton3->setGeometry(QRect(150, 230, 61, 21));
-        Wbutton4 = new QPushButton(chosemap);
-        Wbutton4->setObjectName("Wbutton4");
-        Wbutton4->setGeometry(QRect(150, 250, 61, 21));
-        Wbutton5 = new QPushButton(chosemap);
-        Wbutton5->setObjectName("Wbutton5");
-        Wbutton5->setGeometry(QRect(210, 230, 61, 21));
-        Wbutton2 = new QPushButton(chosemap);
-        Wbutton2->setObjectName("Wbutton2");
-        Wbutton2->setGeometry(QRect(80, 250, 71, 21));
-        Wbutton6 = new QPushButton(chosemap);
-        Wbutton6->setObjectName("Wbutton6");
-        Wbutton6->setGeometry(QRect(210, 250, 61, 20));
-        Wbutton7 = new QPushButton(chosemap);
-        Wbutton7->setObjectName("Wbutton7");
-        Wbutton7->setGeometry(QRect(270, 230, 61, 21));
-        Wbutton8 = new QPushButton(chosemap);
-        Wbutton8->setObjectName("Wbutton8");
-        Wbutton8->setGeometry(QRect(270, 250, 61, 21));
-        Wbutton9 = new QPushButton(chosemap);
-        Wbutton9->setObjectName("Wbutton9");
-        Wbutton9->setGeometry(QRect(330, 230, 51, 21));
-        Wbutton10 = new QPushButton(chosemap);
-        Wbutton10->setObjectName("Wbutton10");
-        Wbutton10->setGeometry(QRect(330, 250, 51, 21));
 
         retranslateUi(chosemap);
 
@@ -135,16 +95,6 @@ public:
         label_2->setText(QCoreApplication::translate("chosemap", "\350\215\222\346\274\240\350\277\267\345\237\216", nullptr));
         label_3->setText(QCoreApplication::translate("chosemap", "\347\202\274\347\213\261\345\260\217\351\225\207", nullptr));
         lineEdit->setText(QCoreApplication::translate("chosemap", "   \351\200\211\346\213\251\344\275\240\347\232\204\345\234\260\345\233\276", nullptr));
-        Wbutton1->setText(QCoreApplication::translate("chosemap", "AK-47", nullptr));
-        Wbutton3->setText(QCoreApplication::translate("chosemap", "P90", nullptr));
-        Wbutton4->setText(QCoreApplication::translate("chosemap", "FAMAS", nullptr));
-        Wbutton5->setText(QCoreApplication::translate("chosemap", "DEAGLE", nullptr));
-        Wbutton2->setText(QCoreApplication::translate("chosemap", "M4A1", nullptr));
-        Wbutton6->setText(QCoreApplication::translate("chosemap", "GALIL", nullptr));
-        Wbutton7->setText(QCoreApplication::translate("chosemap", "AWP", nullptr));
-        Wbutton8->setText(QCoreApplication::translate("chosemap", "USP", nullptr));
-        Wbutton9->setText(QCoreApplication::translate("chosemap", "GLOCK18", nullptr));
-        Wbutton10->setText(QCoreApplication::translate("chosemap", "SG552", nullptr));
     } // retranslateUi
 
 };

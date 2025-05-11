@@ -1,33 +1,18 @@
-
-#ifndef BULLET_H
-#define BULLET_H
-
 #include <QObject>
 #include <QGraphicsPixmapItem>
 #include <QPointF>
 #include <QTimer>
-class Player;
-class Enemy;
-class Floor;
-
-enum class BulletOwner { Player, Enemy };
 
 class Bullet : public QObject, public QGraphicsPixmapItem {
     Q_OBJECT
 public:
-    Bullet(QPointF startPos, QPointF targetPos, BulletOwner owner, QObject *parent = nullptr);
-    void setSpeed(float speed = 10.0f);
+    Bullet(QPointF startPos, QPointF targetPos, QObject *parent = nullptr);//构造函数,构造时刻即创建开始和目标方向，再进行计算移动
 
 private slots:
-    void move();
+    void move(); // 定时器触发的移动函数，源文件中定义
 
 private:
-    void checkCollisions();
-
-    QPointF direction;
-    float speed;
-    QTimer* timer;
-    BulletOwner owner;
+    QPointF direction; // 移动方向
+    float speed = 10.0f; // 速度
+    QTimer *timer;      // 定时器
 };
-
-#endif // BULLET_H

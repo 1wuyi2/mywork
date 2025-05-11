@@ -10,34 +10,24 @@ CONFIG += c++17
 
 SOURCES += \
     bullet.cpp \
-    c4.cpp \
     chosemap.cpp \
     enemy.cpp \
-    floor.cpp \
     game.cpp \
-    lose.cpp \
+    ground.cpp \
     main.cpp \
-    player.cpp \
-    weapon.cpp \
-    win.cpp
+    player.cpp
 
 HEADERS += \
     bullet.h \
-    c4.h \
     chosemap.h \
     enemy.h \
-    floor.h \
     game.h \
-    lose.h \
-    player.h \
-    weapon.h \
-    win.h
+    ground.h \
+    player.h
 
 FORMS += \
     chosemap.ui \
-    game.ui \
-    lose.ui \
-    win.ui
+    game.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -45,6 +35,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    Sounds.qrc \
     resource.qrc
-QT += core gui multimedia

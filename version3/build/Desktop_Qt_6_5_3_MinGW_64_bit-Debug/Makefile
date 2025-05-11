@@ -117,11 +117,6 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_linguist.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimedia.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_network.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_network_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_opengl.pri \
@@ -153,7 +148,6 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quick.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quick_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
@@ -176,8 +170,6 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri \
-		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_sql.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_sql_private.pri \
 		../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_svg.pri \
@@ -226,13 +218,10 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 		../../../../qt/6.5.3/mingw_64/mkspecs/features/lex.prf \
 		../../csgame.pro \
 		../../../../qt/6.5.3/mingw_64/lib/Qt6Widgets.prl \
-		../../../../qt/6.5.3/mingw_64/lib/Qt6Multimedia.prl \
 		../../../../qt/6.5.3/mingw_64/lib/Qt6Gui.prl \
-		../../../../qt/6.5.3/mingw_64/lib/Qt6Network.prl \
 		../../../../qt/6.5.3/mingw_64/lib/Qt6Core.prl \
 		../../../../qt/6.5.3/mingw_64/lib/Qt6EntryPoint.prl \
 		../../../../qt/6.5.3/mingw_64/mkspecs/features/build_pass.prf \
-		../../Sounds.qrc \
 		../../resource.qrc
 	$(QMAKE) -o Makefile ..\..\csgame.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 ../../../../qt/6.5.3/mingw_64/mkspecs/features/spec_pre.prf:
@@ -282,11 +271,6 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_linguist.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimedia.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_network.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_network_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_opengl.pri:
@@ -318,7 +302,6 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quick.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quick_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickcontrols2.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
@@ -341,8 +324,6 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri:
-../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_sql.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_sql_private.pri:
 ../../../../qt/6.5.3/mingw_64/mkspecs/modules/qt_lib_svg.pri:
@@ -391,13 +372,10 @@ Makefile: ../../csgame.pro ../../../../qt/6.5.3/mingw_64/mkspecs/win32-g++/qmake
 ../../../../qt/6.5.3/mingw_64/mkspecs/features/lex.prf:
 ../../csgame.pro:
 ../../../../qt/6.5.3/mingw_64/lib/Qt6Widgets.prl:
-../../../../qt/6.5.3/mingw_64/lib/Qt6Multimedia.prl:
 ../../../../qt/6.5.3/mingw_64/lib/Qt6Gui.prl:
-../../../../qt/6.5.3/mingw_64/lib/Qt6Network.prl:
 ../../../../qt/6.5.3/mingw_64/lib/Qt6Core.prl:
 ../../../../qt/6.5.3/mingw_64/lib/Qt6EntryPoint.prl:
 ../../../../qt/6.5.3/mingw_64/mkspecs/features/build_pass.prf:
-../../Sounds.qrc:
 ../../resource.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\csgame.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
