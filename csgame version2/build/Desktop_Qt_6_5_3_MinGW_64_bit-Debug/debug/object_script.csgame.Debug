@@ -1,0 +1,13 @@
+debug/bullet.o
+debug/chosemap.o
+debug/enemy.o
+debug/floor.o
+debug/game.o
+debug/main.o
+debug/player.o
+debug/qrc_resource.o
+debug/moc_bullet.o
+debug/moc_chosemap.o
+debug/moc_enemy.o
+debug/moc_game.o
+debug/moc_player.o

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../虚拟C盘/cs.jpg</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>

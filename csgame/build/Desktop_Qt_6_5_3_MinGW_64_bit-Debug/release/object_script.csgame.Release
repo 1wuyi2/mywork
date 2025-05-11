@@ -1,0 +1,10 @@
+release/bullet.o
+release/chosemap.o
+release/game.o
+release/main.o
+release/player.o
+release/qrc_resource.o
+release/moc_bullet.o
+release/moc_chosemap.o
+release/moc_game.o
+release/moc_player.o
