@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>cs.jpg</file>
+        <file>INFERNO.jpg</file>
+        <file>mirrage.jpg</file>
+        <file>ct.png</file>
+        <file>dust.jpg</file>
+        <file>dust2.jpg</file>
+        <file>mirragemap.jpg</file>
+        <file>ancientmap.jpg</file>
+        <file>cs2.jpg</file>
+        <file>bullet.jpg</file>
+        <file>bullet2.jpg</file>
+        <file>taijie.jpg</file>
+    </qresource>
+</RCC>
