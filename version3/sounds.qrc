@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>ak47.WAV</file>
+        <file>awp.WAV</file>
+        <file>boom2.WAV</file>
+        <file>CS2C4_converted.WAV</file>
+        <file>ctwin_.WAV</file>
+        <file>deagle.WAV</file>
+        <file>DEFUSE__.WAV</file>
+        <file>famas.WAV</file>
+        <file>galil.WAV</file>
+        <file>glock18.WAV</file>
+        <file>m4a1.WAV</file>
+        <file>p90.WAV</file>
+        <file>sg552.WAV</file>
+        <file>usp.WAV</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>
