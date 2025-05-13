@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/images">
-        <file>cs.jpg</file>
-        <file>INFERNO.jpg</file>
-        <file>dust2.jpg</file>
-        <file>mirrage.jpg</file>
-    </qresource>
-</RCC>

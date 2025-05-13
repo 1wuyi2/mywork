@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>2001</width>
+    <height>1265</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,13 +27,39 @@
      <string>PushButton</string>
     </property>
    </widget>
+   <widget class="QProgressBar" name="defuseProgressBar">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>351</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>-270</x>
+      <y>-50</y>
+      <width>1851</width>
+      <height>1311</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>graphicsView</zorder>
+   <zorder>defuseProgressBar</zorder>
+   <zorder>pushButton</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>2001</width>
      <height>18</height>
     </rect>
    </property>

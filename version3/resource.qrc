@@ -9,7 +9,27 @@
         <file>mirragemap.jpg</file>
         <file>ancientmap.jpg</file>
         <file>cs2.jpg</file>
-        <file>bullet.jpg</file>
         <file>bullet2.jpg</file>
+        <file>t.png</file>
+        <file>ct2.jpg</file>
+        <file>FLOOR.png</file>
+        <file>FLOOR2.png</file>
+        <file>FLOOR3.png</file>
+        <file>ct1.png</file>
+        <file>ct2.png</file>
+        <file>ct3.png</file>
+        <file>ct4.png</file>
+        <file>ct5.png</file>
+        <file>ct6.png</file>
+        <file>ct7.png</file>
+        <file>ct8.png</file>
+        <file>T1.png</file>
+        <file>t2.png</file>
+        <file>t3.png</file>
+        <file>t4.png</file>
+        <file>c41.png</file>
+        <file>c42.png</file>
+        <file>ctwin.png</file>
+        <file>twin.png</file>
     </qresource>
 </RCC>
